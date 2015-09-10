@@ -1,0 +1,9 @@
+//This can be tricky and the best way to keep in your head is to memorise because if you try to relate javascript null to other languages, it will get more confusing. 
+In javascript, null is an object with no value and undefined is a type.
+
+typeof null; // "object"  
+typeof undefined; // "undefined"  
+var a;  
+var b = null;  
+a == b; // "true" because their values are the same  
+a === b; // "false". they have different types 
